@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.edric.week_02_vp_b_1076012510036_edric.Soal1.soal1View
+import com.edric.week_02_vp_b_1076012510036_edric.Soal2.Soal2View
 import com.edric.week_02_vp_b_1076012510036_edric.ui.theme.Week_02_VP_B_1076012510036_EdricTheme
 
 class MainActivity : ComponentActivity() {
@@ -16,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            soal1View()
+            Soal2View()
         }
     }
 }
